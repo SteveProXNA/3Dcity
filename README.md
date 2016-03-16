@@ -16,11 +16,11 @@ Hint: 	hold controller Button2 down while moving target slows target down for mo
 
 ###### TOOLS
 - Programming:	z88dk
-- Graphics:	    BMP2Tile
-- Music:		    Mod2PSG2
-- Assembler:	  WLA-DX
+- Graphics:		BMP2Tile
+- Music:		Mod2PSG2
+- Assembler:	WLA-DX
 - Disassembler:	SMS Examine
-- Emulators: 	  Fusion + Meka
+- Emulators:	Fusion + Meka
 
 
 ###### SOURCE CODE
@@ -50,13 +50,13 @@ StevePro Studios is an independent game developer that builds and publishes 80s 
 Founded by Steven Boland "SteveProXNA" (Jan-2007) a "one man team of one" currently based in Dublin, Ireland.
 
 Previous Sega-based retro games published include "Candy Kid" available here:
-- iOS 		 http://apple.co/1QcidUk
-- Android	 http://goo.gl/5rWsYO
-- Kindle 	 http://amzn.to/1IQPBA4
-- PC 		   http://amzn.to/1QiHM9d
+- iOS		http://apple.co/1QcidUk
+- Android	http://goo.gl/5rWsYO
+- Kindle	http://amzn.to/1IQPBA4
+- PC		http://amzn.to/1QiHM9d
 
 
 ###### CONTACT
-- Blog:		 http://steveproxna.blogspot.com
-- Email:	 steven_boland@hotmail.com
-- Twitter: @SteveProXNA
+- Blog:		http://steveproxna.blogspot.com
+- Email:	steven_boland@hotmail.com
+- Twitter:	@SteveProXNA
