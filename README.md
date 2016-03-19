@@ -1,4 +1,4 @@
-# 3Dcity
+# 3D City
 Classic 8-bit Shoot 'em up built for the Sega Master System
 
 ###### INTRO
