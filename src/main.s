@@ -34,7 +34,7 @@ BANKS 1
 ;==============================================================
 ; SDSC tag and SMS rom header
 ;==============================================================
-.SDSCTAG 1.0,"3D-City","3D-City SMS Competition 2016","StevePro Studios"
+.SDSCTAG 1.0,"3D City","3D City SMS Competition 2016","StevePro Studios"
 
 .EMPTYFILL $00                ;ret.
 .COMPUTESMSCHECKSUM           ;compute sms checksum for this rom.

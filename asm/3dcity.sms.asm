@@ -16,11 +16,11 @@ BANKS 4
 .ENDRO
 
 ; SDSC Tag:
-; Name:        3D-City
+; Name:        3D City
 ; Author:      StevePro Studios
 ; Date:        21.03.2016
 ; Version:     1.00
-; Description: 3D-City SMS Competition 2016
+; Description: 3D City SMS Competition 2016
 
 .BANK 0 SLOT 0
 .ORG $0000
