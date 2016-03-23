@@ -5,7 +5,7 @@ Classic 8-bit Shoot 'em up built for the Sega Master System
 3D City is a simple "Shoot 'em up" video game originally programmed by StevePro Studios in New Zealand, January 1988.
 The game was written using BASIC programming language built on the Sega SC-3000 [source code: http://bit.ly/1n1oEk1].
 
-Inspired from previous posts on Sega Console Programming and z88dk Programming Setup [steveproxna.blogspot.com],
+Inspired from previous posts on Sega Console Programming [http://bit.ly/1RhssZD] and z88dk Programming Setup [http://bit.ly/25nnSzf],
 3D City was the impetus to build an 8-bit video game in C / Z80 assembler to target the Sega Master System.
 
 
