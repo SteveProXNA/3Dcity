@@ -62,4 +62,4 @@ Previous Sega-based retro games published include "Candy Kid" available here:
 ###### CONTACT
 - Blog:		http://steveproxna.blogspot.com
 - Email:	steven_boland@hotmail.com
-- Twitter:	<a href="http://twitter.com/SteveProXNA">@SteveProXNA</a>
+- Twitter:	[@SteveProXNA](http://twitter.com/SteveProXNA)
