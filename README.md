@@ -48,6 +48,14 @@ Special thanks to:
 haroldoop, Maxim, Martin, Ville Helin, Bock + Steve Snake
 
 
+###### REVIEW
+- Retro Gaming Mag by Carl Williams http://bit.ly/29fdfLM
+
+
+###### SOCIAL MEDIA
+- You Tube https://youtu.be/bIU90DfdXIU
+
+
 ###### COMPANY BIO
 StevePro Studios is an independent game developer that builds and publishes 80s retro arcade video games!
 Founded by Steven Boland "SteveProXNA" (Jan-2007) a "one man team of one" currently based in Dublin, Ireland.
