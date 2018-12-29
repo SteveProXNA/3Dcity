@@ -1,4 +1,4 @@
-# 3Dcity
+# 3D City
 Retro style 80s rails based shooter arcade video game.
 
 ###### RELEASE
