@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>15</LevelNo>
+  <LevelType>Easy</LevelType>
+  <LevelName>VICEL</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>250</GridDelay>
+  <BulletMaxim>4</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>225</BulletShoot>
+  <EnemySpawn>5</EnemySpawn>
+  <EnemyTotal>60</EnemyTotal>
+  <EnemyStartDelay>1900</EnemyStartDelay>
+  <EnemyStartDelta>200</EnemyStartDelta>
+  <EnemyFrameDelay>1400</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1100</EnemyFrameMinim>
+  <EnemyFrameRange>150</EnemyFrameRange>
+  <EnemySpeedNone>50</EnemySpeedNone>
+  <EnemySpeedWave>15</EnemySpeedWave>
+  <EnemySpeedFast>35</EnemySpeedFast>
+  <EnemyMoverNone>45</EnemyMoverNone>
+  <EnemyMoverHorz>20</EnemyMoverHorz>
+  <EnemyMoverVert>20</EnemyMoverVert>
+  <EnemyMoverBoth>15</EnemyMoverBoth>
+  <EnemyVelocity>5</EnemyVelocity>
+  <EnemyRotates>40</EnemyRotates>
+  <ExplodeDelay>110</ExplodeDelay>
+</LevelConfigData>

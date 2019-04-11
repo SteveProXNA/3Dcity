@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>3</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>AMAR</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>300</GridDelay>
+  <BulletMaxim>3</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>300</BulletShoot>
+  <EnemySpawn>3</EnemySpawn>
+  <EnemyTotal>50</EnemyTotal>
+  <EnemyStartDelay>1500</EnemyStartDelay>
+  <EnemyStartDelta>0</EnemyStartDelta>
+  <EnemyFrameDelay>1100</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1000</EnemyFrameMinim>
+  <EnemyFrameRange>50</EnemyFrameRange>
+  <EnemySpeedNone>85</EnemySpeedNone>
+  <EnemySpeedWave>10</EnemySpeedWave>
+  <EnemySpeedFast>5</EnemySpeedFast>
+  <EnemyMoverNone>85</EnemyMoverNone>
+  <EnemyMoverHorz>5</EnemyMoverHorz>
+  <EnemyMoverVert>5</EnemyMoverVert>
+  <EnemyMoverBoth>5</EnemyMoverBoth>
+  <EnemyVelocity>2</EnemyVelocity>
+  <EnemyRotates>10</EnemyRotates>
+  <ExplodeDelay>115</ExplodeDelay>
+</LevelConfigData>

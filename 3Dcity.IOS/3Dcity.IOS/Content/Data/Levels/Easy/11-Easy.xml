@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>11</LevelNo>
+  <LevelType>Easy</LevelType>
+  <LevelName>PARMS</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>300</GridDelay>
+  <BulletMaxim>4</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>225</BulletShoot>
+  <EnemySpawn>4</EnemySpawn>
+  <EnemyTotal>50</EnemyTotal>
+  <EnemyStartDelay>2000</EnemyStartDelay>
+  <EnemyStartDelta>125</EnemyStartDelta>
+  <EnemyFrameDelay>1600</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1350</EnemyFrameMinim>
+  <EnemyFrameRange>125</EnemyFrameRange>
+  <EnemySpeedNone>45</EnemySpeedNone>
+  <EnemySpeedWave>30</EnemySpeedWave>
+  <EnemySpeedFast>25</EnemySpeedFast>
+  <EnemyMoverNone>55</EnemyMoverNone>
+  <EnemyMoverHorz>15</EnemyMoverHorz>
+  <EnemyMoverVert>15</EnemyMoverVert>
+  <EnemyMoverBoth>15</EnemyMoverBoth>
+  <EnemyVelocity>4</EnemyVelocity>
+  <EnemyRotates>30</EnemyRotates>
+  <ExplodeDelay>120</ExplodeDelay>
+</LevelConfigData>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Dcity.WIN", "3Dcity.WIN\3Dcity.WIN.csproj", "{005A9BC8-0B75-485C-A4CA-899E97EEBCD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005A9BC8-0B75-485C-A4CA-899E97EEBCD1}.Debug|x86.ActiveCfg = Debug|x86
+		{005A9BC8-0B75-485C-A4CA-899E97EEBCD1}.Debug|x86.Build.0 = Debug|x86
+		{005A9BC8-0B75-485C-A4CA-899E97EEBCD1}.Release|x86.ActiveCfg = Release|x86
+		{005A9BC8-0B75-485C-A4CA-899E97EEBCD1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF604A9C-4F82-433B-A469-E5DBB864DA7D}
+	EndGlobalSection
+EndGlobal

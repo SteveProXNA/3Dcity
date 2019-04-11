@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C8A3667-80C3-431E-AAAE-5A012766D31A}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsGame</RootNamespace>
+    <AssemblyName>3Dcity.AND</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions>.m4a</AndroidStoreUncompressedFileExtensions>
+    <MandroidI18n />
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <MonoGamePlatform>Android</MonoGamePlatform>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;ANDROID</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;ANDROID</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugSymbols>false</DebugSymbols>
+    <ExternalConsole>false</ExternalConsole>
+    <Commandlineparameters></Commandlineparameters>
+    <PlatformTarget>anycpu</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="MonoGame.Framework, Version=3.4.0.456, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MonoGame.Framework.Android.3.4.0.459\lib\MonoAndroid\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Portable.Ninject.3.3.1\lib\monoandroid\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AnGame.cs" />
+    <Compile Include="Common\Data\GlobalConfigData.cs" />
+    <Compile Include="Common\Data\LevelConfigData.cs" />
+    <Compile Include="Common\Data\PlatformConfigData.cs" />
+    <Compile Include="Common\Data\StoragePersistData.cs" />
+    <Compile Include="Common\Devices\DesktopDeviceManager.cs" />
+    <Compile Include="Common\Devices\MobilesDeviceManager.cs" />
+    <Compile Include="Common\Inputs\DesktopInputManager.cs" />
+    <Compile Include="Common\Inputs\MobilesInputManager.cs" />
+    <Compile Include="Common\Interfaces\IDeviceManager.cs" />
+    <Compile Include="Common\Interfaces\IInputManager.cs" />
+    <Compile Include="Common\Managers\BossManager.cs" />
+    <Compile Include="Common\Managers\BulletManager.cs" />
+    <Compile Include="Common\Managers\CollisionManager.cs" />
+    <Compile Include="Common\Managers\CommandManager.cs" />
+    <Compile Include="Common\Managers\ConfigManager.cs" />
+    <Compile Include="Common\Managers\ContentManager.cs" />
+    <Compile Include="Common\Managers\ControlManager.cs" />
+    <Compile Include="Common\Managers\DebugManager.cs" />
+    <Compile Include="Common\Managers\DelayManager.cs" />
+    <Compile Include="Common\Managers\EnemyManager.cs" />
+    <Compile Include="Common\Managers\EventManager.cs" />
+    <Compile Include="Common\Managers\ExplosionManager.cs" />
+    <Compile Include="Common\Managers\IconManager.cs" />
+    <Compile Include="Common\Managers\ImageManager.cs" />
+    <Compile Include="Common\Managers\LevelManager.cs" />
+    <Compile Include="Common\Managers\MoverManager.cs" />
+    <Compile Include="Common\Managers\RenderManager.cs" />
+    <Compile Include="Common\Managers\ScoreManager.cs" />
+    <Compile Include="Common\Managers\ScreenManager.cs" />
+    <Compile Include="Common\Managers\SoundManager.cs" />
+    <Compile Include="Common\Managers\SpriteManager.cs" />
+    <Compile Include="Common\Managers\StateManager.cs" />
+    <Compile Include="Common\Managers\StorageManager.cs" />
+    <Compile Include="Common\Managers\TextManager.cs" />
+    <Compile Include="Common\Managers\ThreadManager.cs" />
+    <Compile Include="Common\MyGame.cs" />
+    <Compile Include="Common\Objects\BaseObject.cs" />
+    <Compile Include="Common\Objects\GameSound.cs" />
+    <Compile Include="Common\Objects\GameState.cs" />
+    <Compile Include="Common\Objects\JoyButton.cs" />
+    <Compile Include="Common\Objects\JoypadMove.cs" />
+    <Compile Include="Common\Screens\BaseScreen.cs" />
+    <Compile Include="Common\Screens\BaseScreenPlay.cs" />
+    <Compile Include="Common\Screens\BaseScreenSelect.cs" />
+    <Compile Include="Common\Screens\BeatScreen.cs" />
+    <Compile Include="Common\Screens\BeginScreen.cs" />
+    <Compile Include="Common\Screens\BossScreen.cs" />
+    <Compile Include="Common\Screens\ContScreen.cs" />
+    <Compile Include="Common\Screens\DeadScreen.cs" />
+    <Compile Include="Common\Screens\DemoScreen.cs" />
+    <Compile Include="Common\Screens\DiffScreen.cs" />
+    <Compile Include="Common\Screens\ExitScreen.cs" />
+    <Compile Include="Common\Screens\FinishScreen.cs" />
+    <Compile Include="Common\Screens\InitScreen.cs" />
+    <Compile Include="Common\Screens\IntroScreen.cs" />
+    <Compile Include="Common\Screens\LevelScreen.cs" />
+    <Compile Include="Common\Screens\LoadScreen.cs" />
+    <Compile Include="Common\Screens\OverScreen.cs" />
+    <Compile Include="Common\Screens\PlayScreen.cs" />
+    <Compile Include="Common\Screens\QuitScreen.cs" />
+    <Compile Include="Common\Screens\ReadyScreen.cs" />
+    <Compile Include="Common\Screens\ResumeScreen.cs" />
+    <Compile Include="Common\Screens\SplashScreen.cs" />
+    <Compile Include="Common\Screens\TestScreen.cs" />
+    <Compile Include="Common\Screens\TitleScreen.cs" />
+    <Compile Include="Common\Sprites\BaseSprite.cs" />
+    <Compile Include="Common\Sprites\Bullet.cs" />
+    <Compile Include="Common\Sprites\Enemy.cs" />
+    <Compile Include="Common\Sprites\Explosion.cs" />
+    <Compile Include="Common\Sprites\LargeTarget.cs" />
+    <Compile Include="Common\Sprites\SmallTarget.cs" />
+    <Compile Include="Common\Static\Assets.cs" />
+    <Compile Include="Common\Static\Constants.cs" />
+    <Compile Include="Common\Static\Enumerations.cs" />
+    <Compile Include="Common\Static\Globalize.cs" />
+    <Compile Include="Common\Static\Registration.cs" />
+    <Compile Include="Common\TheGame\GameFactory.cs" />
+    <Compile Include="Common\TheGame\GameManager.cs" />
+    <Compile Include="GameActivity.cs" />
+    <Compile Include="Master\Engine.cs" />
+    <Compile Include="Master\Factorys\ContentFactory.cs" />
+    <Compile Include="Master\Factorys\SoundFactory.cs" />
+    <Compile Include="Master\Factorys\StorageFactory.cs" />
+    <Compile Include="Master\Implementation\ProdFileProxy.cs" />
+    <Compile Include="Master\Implementation\ProdLogger.cs" />
+    <Compile Include="Master\Implementation\TestLogger.cs" />
+    <Compile Include="Master\Inputs\JoystickInput.cs" />
+    <Compile Include="Master\Inputs\KeyboardInput.cs" />
+    <Compile Include="Master\Inputs\MouseScreenInput.cs" />
+    <Compile Include="Master\Inputs\TouchScreenInput.cs" />
+    <Compile Include="Master\Interfaces\IFileManager.cs" />
+    <Compile Include="Master\Interfaces\IFileProxy.cs" />
+    <Compile Include="Master\Interfaces\ILogger.cs" />
+    <Compile Include="Master\Interfaces\IScreen.cs" />
+    <Compile Include="Master\IoC\EngineModule.cs" />
+    <Compile Include="Master\IoC\IoCContainer.cs" />
+    <Compile Include="Master\Managers\FileManager.cs" />
+    <Compile Include="Master\Managers\RandomManager.cs" />
+    <Compile Include="Master\Managers\ResolutionManager.cs" />
+    <Compile Include="Master\Managers\StopwatchManager.cs" />
+    <Compile Include="Master\Objects\TextData.cs" />
+    <Compile Include="Master\Static\Registration.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Fonts\Emulogic.xnb" />
+    <None Include="Resources\AboutResources.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\Splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Config\GlobalConfig.xml">
+      <SubType>Designer</SubType>
+    </AndroidAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Textures\Splash.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\TestScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Config\PlatformConfigDesktop.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Config\PlatformConfigMobiles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Cheat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\GameOver.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Right.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Title.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Wrong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Textures\spritesheet01-1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Textures\spritesheet02-1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Events\00.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Events\01.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Events\02.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\LevelNames.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\Back\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\ContScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\DiffScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\LevelScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\OverScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Sprite\Enemys.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Sprite\Target.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\ContMusic.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\GameTitle.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\CoolMusic.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Textures\SplashBlank.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\01-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\01-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\02-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\02-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\LoadScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\ReadyScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\QuitScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Aaargh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Bonus.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Ready.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Over.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\03-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\03-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Maths\DelayWaves.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\DeadScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\04-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\05-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\06-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\07-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\08-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\09-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\10-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\11-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\12-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\13-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\14-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\15-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\16-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\17-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Easy\18-Easy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\04-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\05-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\06-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\07-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\08-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\09-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\10-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\11-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\12-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\13-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\14-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\15-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\16-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\17-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Hard\18-Hard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\FinishScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Boss.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Extra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Finish.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Ship.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Texts\BeatScreen.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Levels\Test\99-Test.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Config\GlobalConfigTEST.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Data\Config\GlobalConfigPROD.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\BossMusic1.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\BossMusic2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\GameMusic1.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\GameMusic2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\GameMusic3.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Fire1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Fire2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Content\Sound\Fire3.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>10</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>MINIA</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>250</GridDelay>
+  <BulletMaxim>4</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>225</BulletShoot>
+  <EnemySpawn>6</EnemySpawn>
+  <EnemyTotal>175</EnemyTotal>
+  <EnemyStartDelay>1000</EnemyStartDelay>
+  <EnemyStartDelta>75</EnemyStartDelta>
+  <EnemyFrameDelay>1200</EnemyFrameDelay>
+  <EnemyFrameDelta>50</EnemyFrameDelta>
+  <EnemyFrameMinim>1000</EnemyFrameMinim>
+  <EnemyFrameRange>100</EnemyFrameRange>
+  <EnemySpeedNone>45</EnemySpeedNone>
+  <EnemySpeedWave>30</EnemySpeedWave>
+  <EnemySpeedFast>25</EnemySpeedFast>
+  <EnemyMoverNone>50</EnemyMoverNone>
+  <EnemyMoverHorz>20</EnemyMoverHorz>
+  <EnemyMoverVert>15</EnemyMoverVert>
+  <EnemyMoverBoth>15</EnemyMoverBoth>
+  <EnemyVelocity>5</EnemyVelocity>
+  <EnemyRotates>30</EnemyRotates>
+  <ExplodeDelay>110</ExplodeDelay>
+</LevelConfigData>

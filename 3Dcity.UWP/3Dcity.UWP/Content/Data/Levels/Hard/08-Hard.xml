@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>8</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>IDA</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>250</GridDelay>
+  <BulletMaxim>3</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>300</BulletShoot>
+  <EnemySpawn>5</EnemySpawn>
+  <EnemyTotal>125</EnemyTotal>
+  <EnemyStartDelay>1125</EnemyStartDelay>
+  <EnemyStartDelta>125</EnemyStartDelta>
+  <EnemyFrameDelay>1150</EnemyFrameDelay>
+  <EnemyFrameDelta>50</EnemyFrameDelta>
+  <EnemyFrameMinim>950</EnemyFrameMinim>
+  <EnemyFrameRange>100</EnemyFrameRange>
+  <EnemySpeedNone>55</EnemySpeedNone>
+  <EnemySpeedWave>25</EnemySpeedWave>
+  <EnemySpeedFast>20</EnemySpeedFast>
+  <EnemyMoverNone>60</EnemyMoverNone>
+  <EnemyMoverHorz>15</EnemyMoverHorz>
+  <EnemyMoverVert>15</EnemyMoverVert>
+  <EnemyMoverBoth>10</EnemyMoverBoth>
+  <EnemyVelocity>4</EnemyVelocity>
+  <EnemyRotates>25</EnemyRotates>
+  <ExplodeDelay>110</ExplodeDelay>
+</LevelConfigData>

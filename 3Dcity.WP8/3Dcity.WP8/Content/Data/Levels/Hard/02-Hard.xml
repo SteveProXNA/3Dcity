@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>2</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>GEEZA</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>300</GridDelay>
+  <BulletMaxim>2</BulletMaxim>
+  <BulletFrame>200</BulletFrame>
+  <BulletShoot>600</BulletShoot>
+  <EnemySpawn>3</EnemySpawn>
+  <EnemyTotal>20</EnemyTotal>
+  <EnemyStartDelay>2000</EnemyStartDelay>
+  <EnemyStartDelta>0</EnemyStartDelta>
+  <EnemyFrameDelay>1200</EnemyFrameDelay>
+  <EnemyFrameDelta>50</EnemyFrameDelta>
+  <EnemyFrameMinim>1100</EnemyFrameMinim>
+  <EnemyFrameRange>50</EnemyFrameRange>
+  <EnemySpeedNone>95</EnemySpeedNone>
+  <EnemySpeedWave>5</EnemySpeedWave>
+  <EnemySpeedFast>0</EnemySpeedFast>
+  <EnemyMoverNone>90</EnemyMoverNone>
+  <EnemyMoverHorz>5</EnemyMoverHorz>
+  <EnemyMoverVert>5</EnemyMoverVert>
+  <EnemyMoverBoth>0</EnemyMoverBoth>
+  <EnemyVelocity>2</EnemyVelocity>
+  <EnemyRotates>5</EnemyRotates>
+  <ExplodeDelay>125</ExplodeDelay>
+</LevelConfigData>

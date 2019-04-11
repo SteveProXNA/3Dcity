@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A6DF5D74-BD80-4E1C-8649-5F0AE1622164}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsGame</RootNamespace>
+    <AssemblyName>3DCity.Library</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>846a0855-0965-47ce-9492-c6e450414ede</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.5\lib\net40-client\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Input.Touch.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net40\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AnGame.cs" />
+    <Compile Include="Common\Data\LevelConfigData.cs" />
+    <Compile Include="Common\Data\PlatformConfigData.cs" />
+    <Compile Include="Common\Data\StoragePersistData.cs" />
+    <Compile Include="Common\Devices\DesktopDeviceManager.cs" />
+    <Compile Include="Common\Devices\MobilesDeviceManager.cs" />
+    <Compile Include="Common\Inputs\DesktopInputManager.cs" />
+    <Compile Include="Common\Inputs\MobilesInputManager.cs" />
+    <Compile Include="Common\Interfaces\IDeviceManager.cs" />
+    <Compile Include="Common\Interfaces\IInputManager.cs" />
+    <Compile Include="Common\Managers\BulletManager.cs" />
+    <Compile Include="Common\Managers\CommandManager.cs" />
+    <Compile Include="Common\Managers\BossManager.cs" />
+    <Compile Include="Common\Managers\MoverManager.cs" />
+    <Compile Include="Common\Managers\DelayManager.cs" />
+    <Compile Include="Common\Managers\DebugManager.cs" />
+    <Compile Include="Common\Managers\LevelManager.cs" />
+    <Compile Include="Common\Managers\EventManager.cs" />
+    <Compile Include="Common\Managers\IconManager.cs" />
+    <Compile Include="Common\Managers\ControlManager.cs" />
+    <Compile Include="Common\Managers\EnemyManager.cs" />
+    <Compile Include="Common\Managers\ExplosionManager.cs" />
+    <Compile Include="Common\Managers\RenderManager.cs" />
+    <Compile Include="Common\Managers\StateManager.cs" />
+    <Compile Include="Common\Managers\StorageManager.cs" />
+    <Compile Include="Common\Managers\ThreadManager.cs" />
+    <Compile Include="Common\MyGame.cs" />
+    <Compile Include="Common\Data\GlobalConfigData.cs" />
+    <Compile Include="Common\Managers\CollisionManager.cs" />
+    <Compile Include="Common\Managers\ConfigManager.cs" />
+    <Compile Include="Common\Managers\ContentManager.cs" />
+    <Compile Include="Common\Managers\ImageManager.cs" />
+    <Compile Include="Common\Managers\ScoreManager.cs" />
+    <Compile Include="Common\Managers\ScreenManager.cs" />
+    <Compile Include="Common\Managers\SoundManager.cs" />
+    <Compile Include="Common\Managers\SpriteManager.cs" />
+    <Compile Include="Common\Managers\TextManager.cs" />
+    <Compile Include="Common\Objects\BaseObject.cs" />
+    <Compile Include="Common\Objects\JoyButton.cs" />
+    <Compile Include="Common\Objects\GameSound.cs" />
+    <Compile Include="Common\Objects\GameState.cs" />
+    <Compile Include="Common\Objects\JoypadMove.cs" />
+    <Compile Include="Common\Screens\BaseScreen.cs" />
+    <Compile Include="Common\Screens\BeatScreen.cs" />
+    <Compile Include="Common\Screens\ContScreen.cs" />
+    <Compile Include="Common\Screens\BeginScreen.cs" />
+    <Compile Include="Common\Screens\BaseScreenPlay.cs" />
+    <Compile Include="Common\Screens\BaseScreenSelect.cs" />
+    <Compile Include="Common\Screens\BossScreen.cs" />
+    <Compile Include="Common\Screens\LoadScreen.cs" />
+    <Compile Include="Common\Screens\QuitScreen.cs" />
+    <Compile Include="Common\Screens\DeadScreen.cs" />
+    <Compile Include="Common\Screens\FinishScreen.cs" />
+    <Compile Include="Common\Screens\IntroScreen.cs" />
+    <Compile Include="Common\Screens\LevelScreen.cs" />
+    <Compile Include="Common\Screens\DiffScreen.cs" />
+    <Compile Include="Common\Screens\OverScreen.cs" />
+    <Compile Include="Common\Screens\DemoScreen.cs" />
+    <Compile Include="Common\Screens\ExitScreen.cs" />
+    <Compile Include="Common\Screens\InitScreen.cs" />
+    <Compile Include="Common\Screens\PlayScreen.cs" />
+    <Compile Include="Common\Screens\ReadyScreen.cs" />
+    <Compile Include="Common\Screens\ResumeScreen.cs" />
+    <Compile Include="Common\Screens\SplashScreen.cs" />
+    <Compile Include="Common\Screens\TestScreen.cs" />
+    <Compile Include="Common\Screens\TitleScreen.cs" />
+    <Compile Include="Common\Sprites\BaseSprite.cs" />
+    <Compile Include="Common\Sprites\LargeTarget.cs" />
+    <Compile Include="Common\Sprites\Bullet.cs" />
+    <Compile Include="Common\Sprites\Enemy.cs" />
+    <Compile Include="Common\Sprites\Explosion.cs" />
+    <Compile Include="Common\Sprites\SmallTarget.cs" />
+    <Compile Include="Common\Static\Assets.cs" />
+    <Compile Include="Common\Static\Constants.cs" />
+    <Compile Include="Common\Static\Enumerations.cs" />
+    <Compile Include="Common\Static\Globalize.cs" />
+    <Compile Include="Common\Static\Registration.cs" />
+    <Compile Include="Common\TheGame\GameFactory.cs" />
+    <Compile Include="Common\TheGame\GameManager.cs" />
+    <Compile Include="Master\Engine.cs" />
+    <Compile Include="Master\Factorys\ContentFactory.cs" />
+    <Compile Include="Master\Factorys\SoundFactory.cs" />
+    <Compile Include="Master\Factorys\StorageFactory.cs" />
+    <Compile Include="Master\Implementation\ProdFileProxy.cs" />
+    <Compile Include="Master\Implementation\ProdLogger.cs" />
+    <Compile Include="Master\Implementation\TestLogger.cs" />
+    <Compile Include="Master\Inputs\JoystickInput.cs" />
+    <Compile Include="Master\Inputs\KeyboardInput.cs" />
+    <Compile Include="Master\Inputs\MouseScreenInput.cs" />
+    <Compile Include="Master\Inputs\TouchScreenInput.cs" />
+    <Compile Include="Master\Interfaces\IFileManager.cs" />
+    <Compile Include="Master\Interfaces\IFileProxy.cs" />
+    <Compile Include="Master\Interfaces\ILogger.cs" />
+    <Compile Include="Master\Interfaces\IScreen.cs" />
+    <Compile Include="Master\IoC\EngineModule.cs" />
+    <Compile Include="Master\IoC\IoCContainer.cs" />
+    <Compile Include="Master\Managers\FileManager.cs" />
+    <Compile Include="Master\Managers\RandomManager.cs" />
+    <Compile Include="Master\Managers\ResolutionManager.cs" />
+    <Compile Include="Master\Managers\StopwatchManager.cs" />
+    <Compile Include="Master\Objects\TextData.cs" />
+    <Compile Include="Master\Static\Registration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\Back\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

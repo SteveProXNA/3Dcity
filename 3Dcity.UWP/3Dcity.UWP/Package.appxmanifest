@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="40848SteveProStudios.1107309F000C6" Publisher="CN=5A763094-545D-442B-BFDD-D99AC33DA8B4" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="46a86bd9-947c-4b68-b0ee-6d292229dc82" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>3D City</DisplayName>
+    <PublisherDisplayName>StevePro Studios</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="_3Dcity.UWP.App">
+      <uap:VisualElements DisplayName="3D City" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Do you love to blast away innocent fighter ships in an infinite pixelated universe?  If so then this 80s retro style rails based shooter arcade video game is for you!  Use your skill to defeat the relentless attack of the rebel star fighters throughout 18x levels of hyperactive destruction!  Two main modes: Easy vs. Hard plus unlimited continues to navigate the continual, high-paced frantic and exhaustive action." BackgroundColor="#464646">
+        <uap:DefaultTile Square310x310Logo="Assets\LargeTile.png" Wide310x150Logo="Assets\WideTile.png" Square71x71Logo="Assets\SmallTile.png" ShortName="3D City">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#000000" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

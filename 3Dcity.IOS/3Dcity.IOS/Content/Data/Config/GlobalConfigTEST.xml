@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GlobalConfigData>
+	<ScreenType>Load</ScreenType>
+	<LevelNo>1</LevelNo>
+	<LevelType>Test</LevelType>
+	<FramesPerSecond>100</FramesPerSecond>
+	<MaximLevel>18</MaximLevel>
+	<MaxBullets>10</MaxBullets>
+	<LoadAudio>false</LoadAudio>
+	<PlayAudio>true</PlayAudio>
+	<StarDelay>2000</StarDelay>
+	<SplashDelay>0000</SplashDelay>
+	<SelectDelay>500</SelectDelay>
+	<IntroDelay>23660</IntroDelay>
+	<FlashDelay>800</FlashDelay>
+	<LoadDelay>0000</LoadDelay>		<!-- 2500 -->
+	<ReadyDelay>0000</ReadyDelay>	<!-- 2500 -->
+	<FinishDelay>8000</FinishDelay>
+	<DeadDelay>4000</DeadDelay>		<!-- between 3000-5000ms -->
+	<ResumeDelay>5000</ResumeDelay>
+	<OverDelay>16000</OverDelay>
+	<BeatDelay>28000</BeatDelay>	<!-- 16000 is a keeper !-->
+	<ScoreDelay>600</ScoreDelay>
+	<EventRatio>1.0</EventRatio>
+	<EnemyBlink>true</EnemyBlink>
+	<ScoreBlink>true</ScoreBlink>
+	<UpdateStar>true</UpdateStar>
+	<UpdateGrid>true</UpdateGrid>
+	<RenderBack>true</RenderBack>
+	<RenderIcon>true</RenderIcon>
+	<CoolMusic>true</CoolMusic>
+	<BossBig>true</BossBig>
+	<IsGodMode>false</IsGodMode>
+	<UnlimitedCont>true</UnlimitedCont>
+	<BackBorders>true</BackBorders>
+	<DebugTester>true</DebugTester>
+	<DonotSave>true</DonotSave>
+	<QuitsToExit>true</QuitsToExit>
+</GlobalConfigData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>16</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>NATURA</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>200</GridDelay>
+  <BulletMaxim>5</BulletMaxim>
+  <BulletFrame>175</BulletFrame>
+  <BulletShoot>210</BulletShoot>
+  <EnemySpawn>8</EnemySpawn>
+  <EnemyTotal>225</EnemyTotal>
+  <EnemyStartDelay>950</EnemyStartDelay>
+  <EnemyStartDelta>100</EnemyStartDelta>
+  <EnemyFrameDelay>1400</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1100</EnemyFrameMinim>
+  <EnemyFrameRange>150</EnemyFrameRange>
+  <EnemySpeedNone>25</EnemySpeedNone>
+  <EnemySpeedWave>40</EnemySpeedWave>
+  <EnemySpeedFast>35</EnemySpeedFast>
+  <EnemyMoverNone>20</EnemyMoverNone>
+  <EnemyMoverHorz>30</EnemyMoverHorz>
+  <EnemyMoverVert>25</EnemyMoverVert>
+  <EnemyMoverBoth>25</EnemyMoverBoth>
+  <EnemyVelocity>7</EnemyVelocity>
+  <EnemyRotates>45</EnemyRotates>
+  <ExplodeDelay>100</ExplodeDelay>
+</LevelConfigData>

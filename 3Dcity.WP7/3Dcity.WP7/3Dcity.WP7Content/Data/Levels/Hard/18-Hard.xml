@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>18</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>ABSYMBEL</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>200</GridDelay>
+  <BulletMaxim>6</BulletMaxim>
+  <BulletFrame>200</BulletFrame>
+  <BulletShoot>200</BulletShoot>
+  <EnemySpawn>8</EnemySpawn>
+  <EnemyTotal>250</EnemyTotal>
+  <EnemyStartDelay>900</EnemyStartDelay>
+  <EnemyStartDelta>100</EnemyStartDelta>
+  <EnemyFrameDelay>1300</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1000</EnemyFrameMinim>
+  <EnemyFrameRange>150</EnemyFrameRange>
+  <EnemySpeedNone>20</EnemySpeedNone>
+  <EnemySpeedWave>40</EnemySpeedWave>
+  <EnemySpeedFast>40</EnemySpeedFast>
+  <EnemyMoverNone>10</EnemyMoverNone>
+  <EnemyMoverHorz>30</EnemyMoverHorz>
+  <EnemyMoverVert>30</EnemyMoverVert>
+  <EnemyMoverBoth>30</EnemyMoverBoth>
+  <EnemyVelocity>8</EnemyVelocity>
+  <EnemyRotates>50</EnemyRotates>
+  <ExplodeDelay>100</ExplodeDelay>
+</LevelConfigData>

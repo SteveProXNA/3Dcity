@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="40848SteveProStudios.12487527AA3D5" Publisher="CN=5A763094-545D-442B-BFDD-D99AC33DA8B4" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="41b25b28-bea4-443e-9993-5d65af781e3c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>3DCityWP8</DisplayName>
+    <PublisherDisplayName>StevePro Studios</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="_3Dcity.WP8.App">
+      <m3:VisualElements DisplayName="3D City" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Do you love to blast away innocent fighter ships in an infinite pixelated universe?  If so then this 80s retro style rails based shooter arcade video game is for you!  Use your skill to defeat the relentless attack of the rebel star fighters throughout 18x levels of hyperactive destruction!  Two main modes: Easy vs. Hard plus unlimited continues to navigate the continual, high-paced frantic and exhaustive action." ForegroundText="light" BackgroundColor="transparent" ToastCapable="false">
+        <m3:DefaultTile Square71x71Logo="Assets\Square71x71Logo.png" Wide310x150Logo="Assets\Wide310x150Logo.jpg">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="landscape" />
+        </m3:InitialRotationPreference>
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>

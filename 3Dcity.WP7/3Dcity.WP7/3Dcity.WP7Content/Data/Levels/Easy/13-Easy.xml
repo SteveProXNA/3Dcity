@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>13</LevelNo>
+  <LevelType>Easy</LevelType>
+  <LevelName>DRAIL</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>250</GridDelay>
+  <BulletMaxim>3</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>300</BulletShoot>
+  <EnemySpawn>5</EnemySpawn>
+  <EnemyTotal>40</EnemyTotal>
+  <EnemyStartDelay>2000</EnemyStartDelay>
+  <EnemyStartDelta>200</EnemyStartDelta>
+  <EnemyFrameDelay>1500</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1200</EnemyFrameMinim>
+  <EnemyFrameRange>150</EnemyFrameRange>
+  <EnemySpeedNone>55</EnemySpeedNone>
+  <EnemySpeedWave>20</EnemySpeedWave>
+  <EnemySpeedFast>25</EnemySpeedFast>
+  <EnemyMoverNone>50</EnemyMoverNone>
+  <EnemyMoverHorz>20</EnemyMoverHorz>
+  <EnemyMoverVert>15</EnemyMoverVert>
+  <EnemyMoverBoth>15</EnemyMoverBoth>
+  <EnemyVelocity>5</EnemyVelocity>
+  <EnemyRotates>35</EnemyRotates>
+  <ExplodeDelay>110</ExplodeDelay>
+</LevelConfigData>

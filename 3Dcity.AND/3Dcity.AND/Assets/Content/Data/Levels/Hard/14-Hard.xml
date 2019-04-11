@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelConfigData>
+  <LevelNo>14</LevelNo>
+  <LevelType>Hard</LevelType>
+  <LevelName>ASUTE</LevelName>
+  <BonusLevel>false</BonusLevel>
+  <GridDelay>200</GridDelay>
+  <BulletMaxim>4</BulletMaxim>
+  <BulletFrame>150</BulletFrame>
+  <BulletShoot>225</BulletShoot>
+  <EnemySpawn>7</EnemySpawn>
+  <EnemyTotal>200</EnemyTotal>
+  <EnemyStartDelay>1000</EnemyStartDelay>
+  <EnemyStartDelta>100</EnemyStartDelta>
+  <EnemyFrameDelay>1500</EnemyFrameDelay>
+  <EnemyFrameDelta>100</EnemyFrameDelta>
+  <EnemyFrameMinim>1200</EnemyFrameMinim>
+  <EnemyFrameRange>150</EnemyFrameRange>
+  <EnemySpeedNone>30</EnemySpeedNone>
+  <EnemySpeedWave>40</EnemySpeedWave>
+  <EnemySpeedFast>30</EnemySpeedFast>
+  <EnemyMoverNone>30</EnemyMoverNone>
+  <EnemyMoverHorz>25</EnemyMoverHorz>
+  <EnemyMoverVert>25</EnemyMoverVert>
+  <EnemyMoverBoth>20</EnemyMoverBoth>
+  <EnemyVelocity>6</EnemyVelocity>
+  <EnemyRotates>40</EnemyRotates>
+  <ExplodeDelay>100</ExplodeDelay>
+</LevelConfigData>
