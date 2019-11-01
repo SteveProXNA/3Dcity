@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using WindowsGame.Common.Static;
 
 namespace WindowsGame.Common.Managers
@@ -78,7 +79,7 @@ namespace WindowsGame.Common.Managers
 				String line = lines[index];
 				String[] items = line.Split(Constants.Delim0);
 
-				Single time = Convert.ToSingle(items[0]) * ratio;
+				Single time = Convert.ToSingle(items[0], CultureInfo.InvariantCulture) * ratio;
 				eventTimeList.Add(time);
 				eventTypeList.Add(items[1]);
 				eventArgsList.Add(items[2]);

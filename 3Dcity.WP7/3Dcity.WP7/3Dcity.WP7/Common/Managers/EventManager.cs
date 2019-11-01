@@ -202,8 +202,8 @@ namespace WindowsGame.Common.Managers
 				{
 					Vector2 position = Vector2.Zero;
 					String[] data = theText.Split(Constants.Delim2);
-					position.X = Convert.ToSingle(data[0]);
-					position.Y = Convert.ToSingle(data[1]);
+					position.X = Convert.ToSingle(data[0], CultureInfo.InvariantCulture);
+					position.Y = Convert.ToSingle(data[1], CultureInfo.InvariantCulture);
 					eventArgsData.Add(position);
 				}
 			}
