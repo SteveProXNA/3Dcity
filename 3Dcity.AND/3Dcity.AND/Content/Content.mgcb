@@ -13,3 +13,378 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Data/Config/GlobalConfig.xml
+/copy:Data/Config/GlobalConfig.xml
+
+#begin Data/Config/GlobalConfigPROD.xml
+/copy:Data/Config/GlobalConfigPROD.xml
+
+#begin Data/Config/GlobalConfigTEST.xml
+/copy:Data/Config/GlobalConfigTEST.xml
+
+#begin Data/Config/PlatformConfigDesktop.xml
+/copy:Data/Config/PlatformConfigDesktop.xml
+
+#begin Data/Config/PlatformConfigMobiles.xml
+/copy:Data/Config/PlatformConfigMobiles.xml
+
+#begin Data/Events/00.txt
+/copy:Data/Events/00.txt
+
+#begin Data/Events/01.txt
+/copy:Data/Events/01.txt
+
+#begin Data/Events/02.txt
+/copy:Data/Events/02.txt
+
+#begin Data/Levels/Easy/01-Easy.xml
+/copy:Data/Levels/Easy/01-Easy.xml
+
+#begin Data/Levels/Easy/02-Easy.xml
+/copy:Data/Levels/Easy/02-Easy.xml
+
+#begin Data/Levels/Easy/03-Easy.xml
+/copy:Data/Levels/Easy/03-Easy.xml
+
+#begin Data/Levels/Easy/04-Easy.xml
+/copy:Data/Levels/Easy/04-Easy.xml
+
+#begin Data/Levels/Easy/05-Easy.xml
+/copy:Data/Levels/Easy/05-Easy.xml
+
+#begin Data/Levels/Easy/06-Easy.xml
+/copy:Data/Levels/Easy/06-Easy.xml
+
+#begin Data/Levels/Easy/07-Easy.xml
+/copy:Data/Levels/Easy/07-Easy.xml
+
+#begin Data/Levels/Easy/08-Easy.xml
+/copy:Data/Levels/Easy/08-Easy.xml
+
+#begin Data/Levels/Easy/09-Easy.xml
+/copy:Data/Levels/Easy/09-Easy.xml
+
+#begin Data/Levels/Easy/10-Easy.xml
+/copy:Data/Levels/Easy/10-Easy.xml
+
+#begin Data/Levels/Easy/11-Easy.xml
+/copy:Data/Levels/Easy/11-Easy.xml
+
+#begin Data/Levels/Easy/12-Easy.xml
+/copy:Data/Levels/Easy/12-Easy.xml
+
+#begin Data/Levels/Easy/13-Easy.xml
+/copy:Data/Levels/Easy/13-Easy.xml
+
+#begin Data/Levels/Easy/14-Easy.xml
+/copy:Data/Levels/Easy/14-Easy.xml
+
+#begin Data/Levels/Easy/15-Easy.xml
+/copy:Data/Levels/Easy/15-Easy.xml
+
+#begin Data/Levels/Easy/16-Easy.xml
+/copy:Data/Levels/Easy/16-Easy.xml
+
+#begin Data/Levels/Easy/17-Easy.xml
+/copy:Data/Levels/Easy/17-Easy.xml
+
+#begin Data/Levels/Easy/18-Easy.xml
+/copy:Data/Levels/Easy/18-Easy.xml
+
+#begin Data/Levels/Hard/01-Hard.xml
+/copy:Data/Levels/Hard/01-Hard.xml
+
+#begin Data/Levels/Hard/02-Hard.xml
+/copy:Data/Levels/Hard/02-Hard.xml
+
+#begin Data/Levels/Hard/03-Hard.xml
+/copy:Data/Levels/Hard/03-Hard.xml
+
+#begin Data/Levels/Hard/04-Hard.xml
+/copy:Data/Levels/Hard/04-Hard.xml
+
+#begin Data/Levels/Hard/05-Hard.xml
+/copy:Data/Levels/Hard/05-Hard.xml
+
+#begin Data/Levels/Hard/06-Hard.xml
+/copy:Data/Levels/Hard/06-Hard.xml
+
+#begin Data/Levels/Hard/07-Hard.xml
+/copy:Data/Levels/Hard/07-Hard.xml
+
+#begin Data/Levels/Hard/08-Hard.xml
+/copy:Data/Levels/Hard/08-Hard.xml
+
+#begin Data/Levels/Hard/09-Hard.xml
+/copy:Data/Levels/Hard/09-Hard.xml
+
+#begin Data/Levels/Hard/10-Hard.xml
+/copy:Data/Levels/Hard/10-Hard.xml
+
+#begin Data/Levels/Hard/11-Hard.xml
+/copy:Data/Levels/Hard/11-Hard.xml
+
+#begin Data/Levels/Hard/12-Hard.xml
+/copy:Data/Levels/Hard/12-Hard.xml
+
+#begin Data/Levels/Hard/13-Hard.xml
+/copy:Data/Levels/Hard/13-Hard.xml
+
+#begin Data/Levels/Hard/14-Hard.xml
+/copy:Data/Levels/Hard/14-Hard.xml
+
+#begin Data/Levels/Hard/15-Hard.xml
+/copy:Data/Levels/Hard/15-Hard.xml
+
+#begin Data/Levels/Hard/16-Hard.xml
+/copy:Data/Levels/Hard/16-Hard.xml
+
+#begin Data/Levels/Hard/17-Hard.xml
+/copy:Data/Levels/Hard/17-Hard.xml
+
+#begin Data/Levels/Hard/18-Hard.xml
+/copy:Data/Levels/Hard/18-Hard.xml
+
+#begin Data/Levels/LevelNames.txt
+/copy:Data/Levels/LevelNames.txt
+
+#begin Data/Levels/Test/99-Test.xml
+/copy:Data/Levels/Test/99-Test.xml
+
+#begin Data/Maths/DelayWaves.txt
+/copy:Data/Maths/DelayWaves.txt
+
+#begin Data/Sprite/Enemys.txt
+/copy:Data/Sprite/Enemys.txt
+
+#begin Data/Sprite/Target.txt
+/copy:Data/Sprite/Target.txt
+
+#begin Data/Texts/BeatScreen.txt
+/copy:Data/Texts/BeatScreen.txt
+
+#begin Data/Texts/ContScreen.txt
+/copy:Data/Texts/ContScreen.txt
+
+#begin Data/Texts/DeadScreen.txt
+/copy:Data/Texts/DeadScreen.txt
+
+#begin Data/Texts/DiffScreen.txt
+/copy:Data/Texts/DiffScreen.txt
+
+#begin Data/Texts/FinishScreen.txt
+/copy:Data/Texts/FinishScreen.txt
+
+#begin Data/Texts/LevelScreen.txt
+/copy:Data/Texts/LevelScreen.txt
+
+#begin Data/Texts/LoadScreen.txt
+/copy:Data/Texts/LoadScreen.txt
+
+#begin Data/Texts/OverScreen.txt
+/copy:Data/Texts/OverScreen.txt
+
+#begin Data/Texts/QuitScreen.txt
+/copy:Data/Texts/QuitScreen.txt
+
+#begin Data/Texts/ReadyScreen.txt
+/copy:Data/Texts/ReadyScreen.txt
+
+#begin Data/Texts/TestScreen.txt
+/copy:Data/Texts/TestScreen.txt
+
+#begin Fonts/Emulogic.xnb
+/copy:Fonts/Emulogic.xnb
+
+#begin Sound/Aaargh.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Aaargh.mp3
+
+#begin Sound/Bonus.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Bonus.mp3
+
+#begin Sound/Boss.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Boss.mp3
+
+#begin Sound/BossMusic1.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/BossMusic1.mp3
+
+#begin Sound/BossMusic2.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/BossMusic2.mp3
+
+#begin Sound/Cheat.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Cheat.mp3
+
+#begin Sound/ContMusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/ContMusic.mp3
+
+#begin Sound/CoolMusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/CoolMusic.mp3
+
+#begin Sound/Extra.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Extra.mp3
+
+#begin Sound/Finish.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Finish.mp3
+
+#begin Sound/Fire1.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Fire1.mp3
+
+#begin Sound/Fire2.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Fire2.mp3
+
+#begin Sound/Fire3.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Fire3.mp3
+
+#begin Sound/GameMusic1.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/GameMusic1.mp3
+
+#begin Sound/GameMusic2.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/GameMusic2.mp3
+
+#begin Sound/GameMusic3.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/GameMusic3.mp3
+
+#begin Sound/GameOver.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/GameOver.mp3
+
+#begin Sound/GameTitle.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/GameTitle.mp3
+
+#begin Sound/Over.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Over.mp3
+
+#begin Sound/Ready.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Ready.mp3
+
+#begin Sound/Right.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Right.mp3
+
+#begin Sound/Ship.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Ship.mp3
+
+#begin Sound/Title.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Sound/Title.mp3
+
+#begin Sound/Wrong.mp3
+/importer:Mp3Importer
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sound/Wrong.mp3
+
+#begin Textures/Splash.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Splash.png
+
+#begin Textures/SplashBlank.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/SplashBlank.png
+
+#begin Textures/spritesheet01-1024.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/spritesheet01-1024.png
+
+#begin Textures/spritesheet02-1024.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/spritesheet02-1024.png
+
